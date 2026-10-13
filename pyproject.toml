@@ -7,7 +7,10 @@ authors = [
     { name = "Rihab Al-Yasiri", email = "rihab.al-yasiri@web.de" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pre-commit>=4.7.0",
+    "pytest>=9.1.1",
+]
 
 [project.scripts]
 towerdocs = "towerdocs:main"
