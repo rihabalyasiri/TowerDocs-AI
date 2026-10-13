@@ -1,16 +1,16 @@
 [project]
-name = "dfmg"
+name = "towerDocs"
 version = "0.1.0"
-description = "Add your description here"
+description = "An AI agentic document-processing platform on Azure"
 readme = "README.md"
 authors = [
-    { name = "Rihab Al-Yasiri", email = "rihab.al-yasiri@adesso.de" }
+    { name = "Rihab Al-Yasiri", email = "rihab.al-yasiri@web.de" }
 ]
 requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-dfmg = "dfmg:main"
+towerdocs = "towerdocs:main"
 
 [build-system]
 requires = ["uv_build>=0.12.18,<0.13.0"]
